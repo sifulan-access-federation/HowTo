@@ -6,7 +6,7 @@ To integrate Moodle with SIFULAN Federation and eduGAIN
 
 ## Outcome
 
-Able to accept login from SIFULAN Federation / eduGAIN IdPs
+Able to accept login from SIFULAN Federation / eduGAIN Identity Providers (IdPs)
 
 ## Introduction
 
@@ -161,6 +161,12 @@ sudo systemctl restart apache2
    Data mapping (Institution) | o
 
    Then, click on the ``"Save changes"`` button
+
+After the last step, you should be able to see a new login method appear on the login page like the screenshot below:
+
+![Moodle Login Page](moodle-login.png)
+
+To login by using SIFULAN Federation or eduGAIN, simply click on the ``"Access through your institution"`` button to initiate the login process. You don't have to manually create an account for user from SIFULAN Federation or eduGAIN IdP. Instead, Moodle will automatically create an account for them by using the user's attributes sent by their respective IdP.
 
 ## Exchanging Metadata
 
