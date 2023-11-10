@@ -59,7 +59,7 @@ This guide assume that the Moodle is already installed on Apache Web Server on L
 
    ```bash
    sudo ./keygen.sh -u shibd -g shibd -h [moodle hostname] -y 10 -e https://[moodle hostname]/shibboleth -n sp-signing -f
-   sudo ./keygen.sh -u shibd -g shibd -h [moodle hostnam] -y 10 -e https://[moodle hostname]/shibboleth -n sp-encrypt –f
+   sudo ./keygen.sh -u shibd -g shibd -h [moodle hostname] -y 10 -e https://[moodle hostname]/shibboleth -n sp-encrypt –f
     ```
    For Ubuntu Linux:
 
@@ -91,7 +91,7 @@ sudo wget https://raw.githubusercontent.com/sifulan-access-federation/HowTo/main
 sudo wget https://raw.githubusercontent.com/sifulan-access-federation/HowTo/main/Moodle/attribute-map.xml -O /etc/shibboleth/attribute-map.xml
 ```
 
-You should replace ``[moodle hostname]`` and ``[moodle support email]`` in the [attribute-map.xml](attribute-map.xml) file with the actual hostname and support email of your Moodle service.
+You SHOULD REPLACE ``[moodle hostname]`` and ``[moodle support email]`` in the [shibboleth2.xml](shibboleth2.xml) file with the actual hostname and support email of your Moodle service.
 
 Should you change any configuration configuration file, you need to restart the shibd daemon by using the following command:
 
