@@ -65,7 +65,7 @@ This guide assume that the Moodle is already installed on Apache Web Server on L
 
    ```bash
    sudo shib-keygen -u _shibd -g _shibd -h [moodle hostname] -y 10 -e https://[moodle hostname]/shibboleth -n sp-signing -f
-    sudo shib-keygen -u _shibd -g _shibd -h [moodle hostname] -y 10 -e https://[moodle hostname]/shibboleth -n sp-encrypt –f
+   sudo shib-keygen -u _shibd -g _shibd -h [moodle hostname] -y 10 -e https://[moodle hostname]/shibboleth -n sp-encrypt –f
    ```
 
    Note:
