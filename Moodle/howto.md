@@ -6,7 +6,7 @@ To integrate Moodle with SIFULAN Federation and eduGAIN
 
 ## Outcome
 
-- Able to accept login from SIFULAN Federation / eduGAIN IdPs
+Able to accept login from SIFULAN Federation / eduGAIN IdPs
 
 ## Introduction
 
