@@ -154,7 +154,7 @@ sudo systemctl restart apache2
    Username | eduPersonPrincipalName
    Shibboleth Service Provider logout handler URL | /Shibboleth.sso/Logout
    Authentication method name | Access through your institution
-   Authentication method logo | upload this [logo][sa-black.svg] file
+   Authentication method logo | upload this [logo](sa-black.svg) file
    Data mapping (First name) | givenName
    Data mapping (Last name) | sn
    Data mapping (Email address) | mail
