@@ -170,7 +170,8 @@ To login by using SIFULAN Federation or eduGAIN, simply click on the ``"Access t
 
 ## Exchanging Metadata
 
-You need to provide the Shibboleth SP metadata file to SIFULAN Federation. To do so, you can visit this url:
-``https://[moodle’s hostname]/Shibboleth.sso/Metadata`` to download the Shibboleth SP metadata file for your Moodle (replace ``[moodle’s hostname]`` with your Moodle service' hostname). Save the metadata file (e.g. as ``moodle-metadata.xml``), and email it to support@sifulan.my. It may take up to 24 hours for your Shibboleth SP metadata to be fully propagated at SIFULAN Federation and eduGAIN after the request to register the Service Provider is approved.
+To make your Moodle service visible from SIFULAN Federation and eduGAIN, you need to register your Moodle service with SIFULAN Federation. To do so, visit this url: [https://sifulan.my/service-provider-registration-form/](https://sifulan.my/service-provider-registration-form/). The registration process may take up to 72 hours and another 24 hours for the Metadata to be fully propagated. Should you need some assistance please email us at [support@sifulan.my](mailto:support@sifulan.my).
+
+Note: You can set the URL to the SAML metadata for your Moodle service in this following format: ``https://[moodle’s hostname]/Shibboleth.sso/Metadata``. Replace ```[moodle's hostname]``` with your Moodle's service hostname.
 
 
